@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="404" viewBox="0 0 900 404">
+<defs>
+<linearGradient id="bgG" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0" stop-color="#070B16"/><stop offset="1" stop-color="#0C1428"/>
+</linearGradient>
+<linearGradient id="neonG" x1="0" y1="0" x2="1" y2="0">
+ <stop offset="0" stop-color="#00E5FF"/><stop offset="0.5" stop-color="#7C4DFF"/><stop offset="1" stop-color="#FF2BD6"/>
+</linearGradient>
+<linearGradient id="cyG" x1="0" y1="0" x2="1" y2="0">
+ <stop offset="0" stop-color="#00E5FF"/><stop offset="1" stop-color="#0090A8"/>
+</linearGradient>
+<linearGradient id="mgG" x1="0" y1="0" x2="1" y2="0">
+ <stop offset="0" stop-color="#FF2BD6"/><stop offset="1" stop-color="#FF6EC7"/>
+</linearGradient>
+<linearGradient id="scanG" x1="0" y1="0" x2="0" y2="1">
+ <stop offset="0" stop-color="#00E5FF" stop-opacity="0"/>
+ <stop offset="0.5" stop-color="#00E5FF" stop-opacity="0.09"/>
+ <stop offset="1" stop-color="#00E5FF" stop-opacity="0"/>
+</linearGradient>
+<pattern id="gridP" width="40" height="40" patternUnits="userSpaceOnUse">
+ <path d="M40 0H0V40" fill="none" stroke="#1B2A4A" stroke-opacity="0.32" stroke-width="1"/>
+</pattern>
+<filter id="glow" x="-30%" y="-80%" width="160%" height="260%">
+ <feGaussianBlur stdDeviation="5" result="b"/>
+ <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+<filter id="glow2" x="-40%" y="-120%" width="180%" height="340%">
+ <feGaussianBlur stdDeviation="2.4" result="b"/>
+ <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+</filter>
+<radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
+ <stop offset="0.45" stop-color="#000" stop-opacity="0"/>
+ <stop offset="1" stop-color="#03050C" stop-opacity="0.85"/>
+</radialGradient>
+</defs><defs>
+<clipPath id="pclip"><rect x="6" y="6" width="888" height="392" rx="14"/></clipPath>
+</defs>
+<rect x="6" y="6" width="888" height="392" rx="14" fill="#0A101F" stroke="#223B66" stroke-width="1.5"/>
+<text x="56" y="46" font-family="DejaVu Sans Mono, Menlo, Consolas, monospace" font-weight="bold" font-size="20" fill="#00E5FF">▍MISSION LOG</text><text x="234" y="46" font-family="DejaVu Sans Mono, Menlo, Consolas, monospace" font-size="14" fill="#5F7BAE">— active modules</text><text x="844" y="46" text-anchor="end" font-family="DejaVu Sans Mono, Menlo, Consolas, monospace" font-size="13" fill="#FF2BD6" opacity="0.9">PRIORITY ▸ HIGH</text>
+<circle cx="56" cy="104" r="6" fill="#FFC24B"><animate attributeName="opacity" values="1;0.2;1" dur="1.6s" calcMode="discrete" repeatCount="indefinite"/></circle><text x="76" y="110" font-family="DejaVu Sans Mono, Menlo, Consolas, monospace" font-weight="bold" font-size="19" fill="#EAF2FF">PORTFOLIO_SITE</text><text x="844" y="110" text-anchor="end" font-family="DejaVu Sans Mono, Menlo, Consolas, monospace" font-size="14" fill="#FFC24B" opacity="0.95">IN DEV</text><text x="76" y="134" font-family="DejaVu Sans Mono, Menlo, Consolas, monospace" font-size="13.5" fill="#8FA3C8">// custom branding site // css layouts + animations</text><rect x="76" y="150" width="700" height="10" rx="5" fill="#14213D"/><rect x="76" y="150" width="700" height="10" rx="5" fill="none" stroke="#223B66" stroke-width="1" opacity="0.7"/><g clip-path="url(#mclip9)"><rect x="76" y="150" width="700" height="10" fill="url(#neonG)" opacity="0.9"/><rect x="-14" y="150" width="90" height="10" fill="#FFFFFF" opacity="0.28"><animateTransform attributeName="transform" type="translate" From="0 0" to="790 0" dur="2.8s" begin="0.0s" repeatCount="indefinite"/></rect></g><clipPath id="mclip9"><rect x="76" y="150" width="700" height="10" rx="5"/></clipPath><line x1="56" y1="180" x2="844" y2="180" stroke="#16233F" stroke-width="1" stroke-dasharray="4 6" opacity="0.9"/><circle cx="56" cy="204" r="6" fill="#FF2BD6"><animate attributeName="opacity" values="1;0.2;1" dur="1.2s" calcMode="discrete" repeatCount="indefinite"/></circle><text x="76" y="210" font-family="DejaVu Sans Mono, Menlo, Consolas, monospace" font-weight="bold" font-size="19" fill="#EAF2FF">DESKTECH_AT_26</text><text x="844" y="210" text-anchor="end" font-family="DejaVu Sans Mono, Menlo, Consolas, monospace" font-size="14" fill="#FF2BD6" opacity="0.95">ON AIR</text><text x="76" y="234" font-family="DejaVu Sans Mono, Menlo, Consolas, monospace" font-size="13.5" fill="#8FA3C8">// technical tutorials &amp; guides for the channel</text><rect x="76" y="250" width="700" height="10" rx="5" fill="#14213D"/><rect x="76" y="250" width="700" height="10" rx="5" fill="none" stroke="#223B66" stroke-width="1" opacity="0.7"/><g clip-path="url(#mclip10)"><rect x="76" y="250" width="700" height="10" fill="url(#neonG)" opacity="0.9"/><rect x="-14" y="250" width="90" height="10" fill="#FFFFFF" opacity="0.28"><animateTransform attributeName="transform" type="translate" From="0 0" to="790 0" dur="2.8s" begin="0.5s" repeatCount="indefinite"/></rect></g><clipPath id="mclip10"><rect x="76" y="250" width="700" height="10" rx="5"/></clipPath><line x1="56" y1="280" x2="844" y2="280" stroke="#16233F" stroke-width="1" stroke-dasharray="4 6" opacity="0.9"/><circle cx="56" cy="304" r="6" fill="#00E5FF"><animate attributeName="opacity" values="1;0.2;1" dur="2.0s" calcMode="discrete" repeatCount="indefinite"/></circle><text x="76" y="310" font-family="DejaVu Sans Mono, Menlo, Consolas, monospace" font-weight="bold" font-size="19" fill="#EAF2FF">AUTONOMOUS_SYS</text><text x="844" y="310" text-anchor="end" font-family="DejaVu Sans Mono, Menlo, Consolas, monospace" font-size="14" fill="#00E5FF" opacity="0.95">IN LAB</text><text x="76" y="334" font-family="DejaVu Sans Mono, Menlo, Consolas, monospace" font-size="13.5" fill="#8FA3C8">// logic-based hardware builds on arduino</text><rect x="76" y="350" width="700" height="10" rx="5" fill="#14213D"/><rect x="76" y="350" width="700" height="10" rx="5" fill="none" stroke="#223B66" stroke-width="1" opacity="0.7"/><g clip-path="url(#mclip11)"><rect x="76" y="350" width="700" height="10" fill="url(#neonG)" opacity="0.9"/><rect x="-14" y="350" width="90" height="10" fill="#FFFFFF" opacity="0.28"><animateTransform attributeName="transform" type="translate" From="0 0" to="790 0" dur="2.8s" begin="1.0s" repeatCount="indefinite"/></rect></g><clipPath id="mclip11"><rect x="76" y="350" width="700" height="10" rx="5"/></clipPath>
+<rect x="6" y="392" width="888" height="6" fill="url(#neonG)" opacity="0.5"/></svg>
