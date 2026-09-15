@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="40" viewBox="0 0 1600 40"><defs><linearGradient id="gshim" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#57D9C1" stop-opacity="0"/><stop offset="0.5" stop-color="#57D9C1"/><stop offset="1" stop-color="#57D9C1" stop-opacity="0"/></linearGradient></defs>
+<line x1="80" y1="20" x2="1520" y2="20" stroke="#30363D" stroke-width="1.5"/>
+<circle cx="76" cy="20" r="2" fill="#30363D"/>
+<circle cx="1524" cy="20" r="2" fill="#30363D"/>
+<g><animateTransform attributeName="transform" type="translate" From="-220 0" to="1820 0" dur="11s" repeatCount="indefinite"/><rect x="-80" y="17" width="160" height="6" fill="url(#gshim)" opacity="0.20"/><rect x="-80" y="18.75" width="160" height="2.5" fill="url(#gshim)" opacity="0.55"/></g></svg>
