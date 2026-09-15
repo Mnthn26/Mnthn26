@@ -1,45 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="52" viewBox="0 0 1600 52">
-<defs>
-<linearGradient id="bgG" x1="0" y1="0" x2="0" y2="1">
- <stop offset="0" stop-color="#070B16"/><stop offset="1" stop-color="#0C1428"/>
-</linearGradient>
-<linearGradient id="neonG" x1="0" y1="0" x2="1" y2="0">
- <stop offset="0" stop-color="#00E5FF"/><stop offset="0.5" stop-color="#7C4DFF"/><stop offset="1" stop-color="#FF2BD6"/>
-</linearGradient>
-<linearGradient id="cyG" x1="0" y1="0" x2="1" y2="0">
- <stop offset="0" stop-color="#00E5FF"/><stop offset="1" stop-color="#0090A8"/>
-</linearGradient>
-<linearGradient id="mgG" x1="0" y1="0" x2="1" y2="0">
- <stop offset="0" stop-color="#FF2BD6"/><stop offset="1" stop-color="#FF6EC7"/>
-</linearGradient>
-<linearGradient id="scanG" x1="0" y1="0" x2="0" y2="1">
- <stop offset="0" stop-color="#00E5FF" stop-opacity="0"/>
- <stop offset="0.5" stop-color="#00E5FF" stop-opacity="0.09"/>
- <stop offset="1" stop-color="#00E5FF" stop-opacity="0"/>
-</linearGradient>
-<pattern id="gridP" width="40" height="40" patternUnits="userSpaceOnUse">
- <path d="M40 0H0V40" fill="none" stroke="#1B2A4A" stroke-opacity="0.32" stroke-width="1"/>
-</pattern>
-<filter id="glow" x="-30%" y="-80%" width="160%" height="260%">
- <feGaussianBlur stdDeviation="5" result="b"/>
- <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-</filter>
-<filter id="glow2" x="-40%" y="-120%" width="180%" height="340%">
- <feGaussianBlur stdDeviation="2.4" result="b"/>
- <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-</filter>
-<radialGradient id="vig" cx="0.5" cy="0.42" r="0.75">
- <stop offset="0.45" stop-color="#000" stop-opacity="0"/>
- <stop offset="1" stop-color="#03050C" stop-opacity="0.85"/>
-</radialGradient>
-</defs>
-<line x1="40" y1="26" x2="740" y2="26" stroke="url(#cyG)" stroke-width="2" opacity="0.75"/>
-<line x1="860" y1="26" x2="1560" y2="26" stroke="url(#mgG)" stroke-width="2" opacity="0.75"/>
-<rect x="36" y="23" width="6" height="6" transform="rotate(45 39 26)" fill="#00E5FF" opacity="0.9"/>
-<rect x="1558" y="23" width="6" height="6" transform="rotate(45 1561 26)" fill="#FF2BD6" opacity="0.9"/>
-<circle cx="60" cy="26" r="3.5" fill="#00E5FF" opacity="0"><animate attributeName="cx" values="60;730" dur="3.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.85;1" dur="3.2s" repeatCount="indefinite"/></circle>
-<circle cx="730" cy="26" r="3.5" fill="#7C4DFF" opacity="0"><animate attributeName="cx" values="730;60" dur="3.2s" begin="1.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.85;1" dur="3.2s" begin="1.6s" repeatCount="indefinite"/></circle>
-<circle cx="1540" cy="26" r="3.5" fill="#FF2BD6" opacity="0"><animate attributeName="cx" values="1540;870" dur="3.2s" begin="0.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.85;1" dur="3.2s" begin="0.8s" repeatCount="indefinite"/></circle>
-<circle cx="870" cy="26" r="3.5" fill="#7DE8FF" opacity="0"><animate attributeName="cx" values="870;1540" dur="3.2s" begin="2.4s" repeatCount="indefinite"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.15;0.85;1" dur="3.2s" begin="2.4s" repeatCount="indefinite"/></circle>
-<rect x="-8" y="-8" width="16" height="16" transform="translate(800 26) rotate(45)" fill="url(#neonG)" opacity="0.95"><animate attributeName="opacity" values="0.6;1;0.6" dur="2.4s" repeatCount="indefinite"/></rect>
-<rect x="-14" y="-14" width="28" height="28" transform="translate(800 26) rotate(45)" fill="none" stroke="#7C4DFF" stroke-width="1" opacity="0.4"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="40" viewBox="0 0 1600 40"><defs><linearGradient id="gshim" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#57D9C1" stop-opacity="0"/><stop offset="0.5" stop-color="#57D9C1"/><stop offset="1" stop-color="#57D9C1" stop-opacity="0"/></linearGradient></defs>
+<line x1="80" y1="20" x2="1520" y2="20" stroke="#30363D" stroke-width="1.5"/>
+<circle cx="76" cy="20" r="2" fill="#30363D"/>
+<circle cx="1524" cy="20" r="2" fill="#30363D"/>
+<g><animateTransform attributeName="transform" type="translate" From="-220 0" to="1820 0" dur="11s" repeatCount="indefinite"/><rect x="-80" y="17" width="160" height="6" fill="url(#gshim)" opacity="0.20"/><rect x="-80" y="18.75" width="160" height="2.5" fill="url(#gshim)" opacity="0.55"/></g></svg>
